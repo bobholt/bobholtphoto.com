@@ -1,0 +1,223 @@
+<!DOCTYPE HTML>
+<!--
+	Halcyonic by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+  <title>Hooks Lines Sinkers Zine | Shop | Bob Holt</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="/assets/css/main.css" />
+</head>
+
+<body class="subpage">
+  <div id="page-wrapper">
+
+    <!-- Header -->
+    <section id="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+
+            <!-- Logo -->
+            <h2><a href="/" id="logo">Bob Holt</a></h2>
+
+            <!-- Nav -->
+            <nav id="nav">
+              <a href="/">Home</a>
+              <a href="/projects">Projects</a>
+              <a href="/about">About</a>
+              <a href="/shop">Shop</a>
+            </nav>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Content -->
+    <section id="content">
+      <div class="container">
+        <div class="row">
+          <div class="col-7 col-12-medium">
+            <!-- Main Content -->
+            <section>
+              <header>
+                <h1>Hooks Lines Sinkers Zine</h1>
+              </header>
+              <div class="feature-image">
+                <img src="/images/shop/hooks-lines-sinkers-zine/HooksLinesSinkers+Pages-1.png"
+                  alt="front cover, Hooks Lines Sinkers zine" />
+              </div>
+              <div class="feature-image">
+                <img src="/images/shop/hooks-lines-sinkers-zine/HooksLinesSinkers+Pages+Proof-5.png"
+                  alt="interior page, Hooks Lines Sinkers zine" />
+              </div>
+              <div class="feature-image">
+                <img src="/images/shop/hooks-lines-sinkers-zine/HooksLinesSinkers+Pages+Proof-16.png"
+                  alt="interior page, Hooks Lines Sinkers zine" />
+              </div>
+              <div class="feature-image">
+                <img src="/images/shop/hooks-lines-sinkers-zine/LRM_20211023_124752.jpg"
+                  alt="hand holding zine, front cover visible" />
+              </div>
+              <div class="feature-image">
+                <img src="/images/shop/hooks-lines-sinkers-zine/LRM_20211023_124704.jpg"
+                  alt="photograph of printed zine open to interior page, Hooks Lines Sinkers zine" />
+              </div>
+              <div class="feature-image">
+                <img src="/images/shop/hooks-lines-sinkers-zine/LRM_20211023_124736.jpg"
+                  alt="photograph of printed zine open to interior page, Hooks Lines Sinkers zine" />
+              </div>
+            </section>
+
+          </div>
+          <div class="col-5 col-12-medium">
+            <section class="price">
+              <p><strong>$10.00 + shipping</strong></p>
+            </section>
+
+            <div id="smart-button-container">
+              <div style="text-align: center;">
+                <div id="paypal-button-container"></div>
+              </div>
+            </div>
+            <script src="https://www.paypal.com/sdk/js?client-id=sb&enable-funding=venmo&currency=USD"
+              data-sdk-integration-source="button-factory"></script>
+            <script>
+              function initPayPalButton() {
+                paypal.Buttons({
+                  style: {
+                    shape: 'rect',
+                    color: 'white',
+                    layout: 'vertical',
+                    label: 'paypal',
+
+                  },
+
+                  createOrder: function (data, actions) {
+                    return actions.order.create({
+                      purchase_units: [{ "description": "Hooks Lines Sinkers Zine", "amount": { "currency_code": "USD", "value": 14.19, "breakdown": { "item_total": { "currency_code": "USD", "value": 10 }, "shipping": { "currency_code": "USD", "value": 4.19 }, "tax_total": { "currency_code": "USD", "value": 0 } } } }]
+                    });
+                  },
+
+                  onApprove: function (data, actions) {
+                    return actions.order.capture().then(function (orderData) {
+
+                      // Full available details
+                      console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+
+                      // Show a success message within this page, e.g.
+                      const element = document.getElementById('paypal-button-container');
+                      element.innerHTML = '';
+                      element.innerHTML = '<h3>Thank you for your payment!</h3>';
+
+                      // Or go to another URL:  actions.redirect('thank_you.html');
+
+                    });
+                  },
+
+                  onError: function (err) {
+                    console.log(err);
+                  }
+                }).render('#paypal-button-container');
+              }
+              initPayPalButton();
+            </script>
+
+            <section>
+              <p>
+                These photographs were made at the Contoocook River Reservoir above the Noone Mills Dam in Peterborough, New Hampshire
+                on Friday, October 8, 2021.
+              </p>
+              <p>
+                I had been shooting at the reservoir for several days that week, capturing the autumn leaves in their absolute highest
+                color. But, I kept coming back to the dozens of fishing lures caught in the utility lines strung along the entire length
+                of an out-of-use bridge. Too high to be retrieved once snarled, the fishing lines had been snapped and the tackle left
+                behind.
+              </p>
+              <p>
+                The utility lines serve as an archive of small mistakes. Successful casts and catches are not recorded here. We take
+                those with us, and leave the mess behind for someone else to clean up.
+              </p>
+              <p>
+                And in these images, I see nature attempting to do that. The sun fades the colors from the bobbers and gradually weakens
+                the monofiliment. Hooks rust. The tiny spiders weave their webs within and around the tangles of fishing line, using our
+                tackle to make catches of their own.
+              </p>
+              <p>
+                But it’s not a battle it will win until we’re long gone. We’ll be back with our full tackle boxes next year, ready to
+                record more failures along our paths to success.
+              </p>
+              <p>
+                Bob Holt, October 12, 2021
+              </p>
+              <p>
+                First Edition of 100<br>
+                40 pages, 19 Images<br>
+                Digest-sized (5.5 x 8.5 inches)<br>
+                300 gsm matte laminated satin cover, 150 gsm satin text pages<br>
+                Saddle-stitch (stapled)<br>
+                Signed and numbered
+              </p>
+            </section>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+
+            <!-- Links -->
+            <section>
+              <!-- <h2>Links to Important Stuff</h2> -->
+              <div>
+                <div class="row">
+                  <div class="col-6 col-12-small">
+                    <ul class="link-list last-child">
+                      <li><a href="https://www.instagram.com/bobholtphoto/" class="icon brands fa-instagram"
+                          target="_blank"> <span class="label">Instagram</span> @bobholtphoto</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-6 col-12-small">
+                    <ul class="link-list last-child">
+                      <li><a href="mailto:bobholt@gmail.com" class="icon solid fa-envelope"> <span
+                            class="label">Email</span> bobholt@gmail.com</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-6 col-12-small">
+
+                  </div>
+                </div>
+              </div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Copyright -->
+    <div id="copyright">
+      &copy; Bob Holt. All rights reserved. | Design: <a href="http://html5up.net">HTML5 UP</a>
+    </div>
+
+  </div>
+
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
